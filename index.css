@@ -1,0 +1,188 @@
+* {
+    /* So 100% means 100% */
+    box-sizing: border-box;
+  }
+  html, body {
+    /* Make the body to be as tall as browser window */
+    height: 100%;
+    background: rgb(61, 122, 163);
+    padding: 20px;
+  }
+  body {
+    padding: 20px;
+  }
+  
+
+  .section1 {
+    width: 50%;
+    float: left;
+    margin-right: 1em;
+  }
+  
+  .section2  {
+    width: calc(50% - 1em);
+    padding-bottom: calc(28% - 1em);
+    float: right;
+    text-align: right;
+  }
+
+
+li {
+    text-align: left;
+    text-indent: 0cm;
+    margin-left: 1.2cm;
+    margin-right: 1.2cm;
+    color:lightgrey;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color:rgb(70, 72, 72);
+}
+
+p {
+    font-size: 20px;
+}
+
+
+a {
+    color: lightgrey;
+}
+
+
+.Instagram {
+    padding-right: 5px;
+}
+
+.Whatsapp {
+    padding-right: 5px;
+}
+
+.Telegram {
+    padding-right: 5px;
+}
+
+.Twitter {
+    padding-right: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    display:flex start;
+    padding: 8px 16px;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    background-color: rgb(70, 72, 72);;
+    color: lightgrey;
+  }
+  
+  .previous {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .next {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 0%;
+  }
+
+  header {
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: darkgray;
+    text-align: center;
+  }
+
+  header .next-previous {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  header h1 {
+    color:rgb(70, 72, 72);
+  }
+
+ .section1 h2{
+    font-size: 35px;
+}
+
+
+.section1 p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: lightgrey;
+}
+
+
+.section2 h2{
+    font-size: 35px;
+}
+
+
+.section2 p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: lightgrey;
+}
+
+
+  .nav_menu2 {
+    text-align: center;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: darkgray;
+    padding:20px;
+    clear:both;
+    
+}
+
+.button {
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    background-color: rgb(100, 100, 100);
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    color: rgb(100, 100, 100);
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.disclaimercontainer{
+    padding-top: 75px;
+}
+
+.buttoncontainer {
+    padding-top: 21px;
+}
+
+.img1 {
+    margin-top:40px;
+}
+
+.img2 {
+    margin-top:80px;
+}
+
+.img3 {
+    margin-top:80px;
+}

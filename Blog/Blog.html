@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=720, initial-scale=1">
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="../Blog/blog.css"/>
+
+</head>
+<body>
+    <header>
+    <h1>Blog</h1>
+    <div class = "nav_menu">
+        <a id="Home" href = "../index.html">Home</a>
+        <a id="About-Us" href = "../About Us/About Us.html">About Us</a>
+        <a id="Blog" href = "../Blog/Blog.html">Blog</a>
+    </div><br>
+    <div class="next-previous">
+        <a href="../About Us/About Us.html" class="previous round">&#8249;</a>
+        <a href="../index.html" class="next round">&#8250;</a>
+    </div>
+    </header>
+
+ 
+<!--- the start of the body html-->
+<div class="section1">
+   <h2><u>The Launch of our website</u></h2>
+<h4><u>8 December 2022</u></h4>
+<p>We would like to take the time to thank our friends and family
+   for helping us with the development of this website. This has truly been
+   one hectic year coming out of the pandemic.Many of us have lost and
+   gained an incredible amount in different aspects of our lives but one thing we should 
+   be grateful for is the blessing of being granted another day to live. Being granted 
+   another day to move one step closer towards achieving our goals. We wish one and all
+   an amazing time during December and hope that 2023 brings about only blessings and 
+   prosperity for one and all. Thank you in advance for your support. 
+</p>
+</div>
+
+<div class="section2">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</div>
+<!--- the end of the body html-->
+
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="../grey telegram logo.png" width="100%" height="100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../grey twitter logo.png" width="100%" height="100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="../grey whatsapp logo.png" width="100%" height="100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prevslidepic" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="nextslidepic" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+
+<footer>
+    <div class = "nav_menu2">
+        <a class="Instagram" href="https://www.instagram.com/_the_anxious_trader_/" target="_blank"><img src="../grey instagram logo.png" alt="Instagram" style="width:42px;height:42px;"></a>
+        <a class="Whatsapp"  href="https://wa.me/+27725152389" target="_blank"><img src="../grey whatsapp logo.png"  alt="Whatsapp" style="width:42px;height:42px;"></a>
+        <a class="Telegram"  href="https://t.me/The_anxious_Trader" target="_blank"><img src="../grey telegram logo.png"  alt="Telegram" style="width:42px;height:42px;"></a>
+        <a class="Twitter"   href="https://twitter.com/_2nd_chances_?t=SIMdBnFfwt-FPIKl4pS77g&s=09" target="_blank"><img src="../grey twitter logo.png"   alt="Twitter" style="width:42px;height:42px;"></a>
+        <a class="Facebook"  href="https://www.facebook.com/ammaar.hendricks.1" target="_blank"><img src="../grey facebook logo.png"  alt="Facebook" style="width:42px;height:42px;" ></a>
+    </div><br>       
+</footer>
+
+</body>
+</html>
